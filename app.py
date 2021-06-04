@@ -18,6 +18,3 @@ def scrape():
    return redirect('/', code=302)
 if __name__ == "__main__":
    app.run()
-
-if __name__ == '__main__':
-    app.run(port=8000)
